@@ -1,6 +1,6 @@
-package com.example.train;
+package com.mon.train.member.controller;
 
-import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class testController {
     @GetMapping("/hello")
     public String hello(){
-        System.out.println("hello");
-        return "hello";
+        System.out.println("hello!");
+        return "hello!";
     }
 }
